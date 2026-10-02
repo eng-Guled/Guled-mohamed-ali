@@ -7,12 +7,33 @@ document.querySelectorAll('.tabs button').forEach(btn=>{
     document.getElementById(btn.dataset.tab).classList.add('active');
   });
 });
-// Reservation form (shows a confirmation; connect to your own backend or WhatsApp to receive it)
 const form=document.getElementById('form'), confirmEl=document.getElementById('confirm');
 form.date.min=new Date().toISOString().split('T')[0];
-form.addEventListener('submit',e=>{
+form.addEventListener('submit',async e=>{
   e.preventDefault();
-  confirmEl.textContent=`Thank you, ${form.name.value}. We received your request for ${form.guests.value} guest(s) on ${form.date.value} at ${form.time.value}. We will call ${form.phone.value} to confirm.`;
-  confirmEl.hidden=false; form.reset(); confirmEl.scrollIntoView({behavior:'smooth',block:'center'});
+  const submitButton=form.querySelector('button[type="submit"]');
+  submitButton.disabled=true;
+  confirmEl.hidden=false;
+  confirmEl.classList.remove('error');
+  confirmEl.textContent='Sending your reservation request...';
+  try{
+    const response=await fetch('/api/reservations',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(Object.fromEntries(new FormData(form)))
+    });
+    const result=await response.json();
+    if(!response.ok) throw new Error(result.error||'Could not send your request. Please try again.');
+    confirmEl.textContent=result.message;
+    form.reset();
+  }catch(error){
+    confirmEl.classList.add('error');
+    confirmEl.textContent=error.message==='Failed to fetch'
+      ?'Could not reach the reservation service. Please try again later.'
+      :error.message;
+  }finally{
+    submitButton.disabled=false;
+    confirmEl.scrollIntoView({behavior:'smooth',block:'center'});
+  }
 });
 document.getElementById('year').textContent=new Date().getFullYear();

@@ -60,6 +60,7 @@ label{display:grid;gap:6px;font-weight:500}
 input,select{font:inherit;padding:12px 14px;border:2px solid #0F3B3A44;border-radius:10px;background:#fff}
 input:focus,select:focus{border-color:var(--teal);outline:none}
 #confirm{margin-top:24px;padding:18px 22px;background:var(--teal);color:#fff;border-radius:10px;max-width:860px}
+#confirm.error{background:#8A2A1A}
 
 .visit{background:#E4EEE8}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;margin-top:24px}
