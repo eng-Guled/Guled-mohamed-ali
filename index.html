@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asiya House Coffee</title>
+<meta name="description" content="Asiya House Coffee: asiya house and cafe , cooked daily. Dine in, take away, or reserve a table.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">Asiya House Coffee</a>
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#story">Our story</a>
+    <a href="#visit">Visit</a>
+    <a href="#reserve" class="btn small">Reserve a table</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="kicker">asiya house an cafe</p>
+      <h1>Asiya House<br>Coffee</h1>
+      <p class="lead">Rice, grilled meat, spiced tea and fresh bread. Cooked every day, served warm, shared at one table.</p>
+      <div class="cta">
+        <a href="#menu" class="btn">See the menu</a>
+        <a href="#reserve" class="btn ghost">Reserve a table</a>
+      </div>
+    </div>
+    <div class="bowl" aria-hidden="true">
+      <svg viewBox="0 0 320 320">
+        <g class="steam" fill="none" stroke="#F6D58A" stroke-width="6" stroke-linecap="round">
+          <path d="M115 105c-14-20 14-30 0-52"/><path d="M160 100c-14-24 14-36 0-62"/><path d="M205 105c-14-20 14-30 0-52"/>
+        </g>
+        <ellipse cx="160" cy="268" rx="118" ry="16" fill="#00000030"/>
+        <path d="M30 150h260c0 80-50 125-130 125S30 230 30 150z" fill="#C8402B"/>
+        <ellipse cx="160" cy="150" rx="130" ry="30" fill="#F2A71B"/>
+        <ellipse cx="160" cy="146" rx="108" ry="22" fill="#F6D58A"/>
+        <g fill="#8A2A1A"><circle cx="120" cy="142" r="7"/><circle cx="165" cy="150" r="8"/><circle cx="205" cy="141" r="6"/><circle cx="145" cy="136" r="5"/></g>
+        <g fill="#2E7D4F"><circle cx="180" cy="136" r="4"/><circle cx="130" cy="152" r="4"/><circle cx="190" cy="152" r="3"/></g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="strip" aria-label="Highlights">
+    <p>Open every day, 24/7</p>
+    <p>Halal kitchen</p>
+    <p>Dine in, take away, delivery</p>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our menu</h2>
+    <p class="sub">Choose a category. Prices are in Ethiopian birr (ETB).</p>
+    <div class="tabs" role="tablist">
+      <button role="tab" class="active" data-tab="mains">Main dishes</button>
+      <button role="tab" data-tab="breakfast">Breakfast</button>
+      <button role="tab" data-tab="drinks">Drinks and sweets</button>
+    </div>
+
+    <div class="panel active" id="mains">
+      <article><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A colorful bowl of rice and vegetables" loading="lazy"><div><div class="item-heading"><h3>Bariis iskukaris</h3><span>420</span></div><p>Spiced rice with tender goat meat, raisins and a side of banana.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Slow-roasted meat with herbs" loading="lazy"><div><div class="item-heading"><h3>Hilib ari</h3><span>480</span></div><p>Slow-roasted goat with garlic and cumin, served with rice or pasta.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Grilled meat and vegetables" loading="lazy"><div><div class="item-heading"><h3>Suqaar</h3><span>380</span></div><p>Pan-seared beef cubes with peppers and onion, served with fresh bread.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Fresh fish served with lemon" loading="lazy"><div><div class="item-heading"><h3>Fish and chips, house style</h3><span>360</span></div><p>Crisp fried fish, hand-cut chips and a green chili sauce.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Fresh vegetables with greens and lemon" loading="lazy"><div><div class="item-heading"><h3>Vegetable maraq</h3><span>240</span></div><p>A thick stew of potato, carrot and greens with lemon. Vegetarian.</p></div></article>
+    </div>
+
+    <div class="panel" id="breakfast">
+      <article><img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A freshly prepared breakfast plate" loading="lazy"><div><div class="item-heading"><h3>Canjeero and sesame oil</h3><span>120</span></div><p>Soft fermented pancakes with sugar and sesame oil.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Golden freshly baked pastry" loading="lazy"><div><div class="item-heading"><h3>Malawax</h3><span>140</span></div><p>Sweet pan-fried crepe with cardamom, served with tea.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A warm bowl of beans and vegetables" loading="lazy"><div><div class="item-heading"><h3>Foul and bread</h3><span>150</span></div><p>Warm fava beans with oil, onion and fresh bread.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Eggs served for breakfast" loading="lazy"><div><div class="item-heading"><h3>Eggs and liver</h3><span>220</span></div><p>Scrambled eggs and sautéed liver with onions.</p></div></article>
+    </div>
+
+    <div class="panel" id="drinks">
+      <article><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A pot of freshly brewed tea" loading="lazy"><div><div class="item-heading"><h3>Shaah Somali</h3><span>60</span></div><p>Spiced tea with cardamom, cinnamon and ginger, served by the pot.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Fresh fruit juice" loading="lazy"><div><div class="item-heading"><h3>Fresh mango and avocado juice</h3><span>110</span></div><p>Layered, thick and cold.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A cup of freshly brewed coffee" loading="lazy"><div><div class="item-heading"><h3>Qaxwo coffee</h3><span>70</span></div><p>Coffee brewed with ginger and sugar.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A sweet dessert served fresh" loading="lazy"><div><div class="item-heading"><h3>Halwo</h3><span>130</span></div><p>Soft sweet made with cardamom and nuts, served in slices.</p></div></article>
+    </div>
+  </section>
+
+  <section id="story" class="story">
+    <div>
+      <h2>A table for everyone</h2>
+      <p>Asiya House Coffee started with one idea: food tastes better when it is shared. Our cooks prepare rice, meat and bread the way families do at home, and our tea is brewed slowly with whole spices.</p>
+      <p>Come for a quick breakfast, a long lunch with colleagues, or a family dinner. There is always room for one more.</p>
+    </div>
+    <ul class="facts">
+      <li><b>Fresh daily</b> Bread and sauces are made every morning.</li>
+      <li><b>Family tables</b> Large platters for groups of 4 or more.</li>
+      <li><b>Halal</b> All meat is halal.</li>
+    </ul>
+  </section>
+
+  <section id="reserve" class="reserve">
+    <h2>Reserve a table</h2>
+    <p class="sub">Tell us when you are coming. We will confirm by phone.</p>
+    <form id="form">
+      <label>Full name<input name="name" required autocomplete="name"></label>
+      <label>Phone number<input name="phone" type="tel" required autocomplete="tel"></label>
+      <label>Date<input name="date" type="date" required></label>
+      <label>Time<input name="time" type="time" min="07:00" max="21:30" required></label>
+      <label>Guests
+        <select name="guests"><option>1</option><option>2</option><option selected>4</option><option>6</option><option>8</option><option>10 or more</option></select>
+      </label>
+      <button class="btn" type="submit">Send reservation</button>
+    </form>
+    <p id="confirm" role="status" hidden></p>
+  </section>
+
+  <section id="visit" class="visit">
+    <h2>Visit us</h2>
+    <div class="cols">
+    </div>everyday
+      <div><h3>Opening hours</h3><p>Every day<br>24/7</p></div>
+      <div><h3>Address</h3><p>Bole, in front of Jacfar Mosque<br>Addis Ababa, Ethiopia</p></div>
+      <div><h3>Contact</h3><p><a href="tel:0933012624">0933012624</a><br>hello@asiyahouse.example</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="logo">Asiya House Coffee</p>
+  <p>© <span id="year"></span> Asiya House Coffee. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
