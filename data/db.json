@@ -1,0 +1,297 @@
+{
+ "settings": {
+  "name": "Guled Collection Mens",
+  "tagline": "Dress sharp. Feel proud.",
+  "heroTitle": "Style for the modern man",
+  "heroText": "Shirts, suits, shoes and accessories chosen for quality and fit. Pay cash on delivery.",
+  "phone": "+251 900 000 000",
+  "whatsapp": "251900000000",
+  "email": "info@guledcollection.example",
+  "address": "Main Street, Jigjiga, Ethiopia",
+  "hours": "Every day, 8:00 to 21:00",
+  "currency": "ETB",
+  "accent": "#C9A24B",
+  "deliveryFee": 100,
+  "freeOver": 3000,
+  "categories": "Shirts, T-Shirts, Trousers, Suits and Jackets, Shoes, Accessories"
+ },
+ "products": [
+  {
+   "id": "5d14b369e0",
+   "name": "Classic White Shirt",
+   "category": "Shirts",
+   "price": 1450,
+   "oldPrice": 1800,
+   "desc": "Slim-fit cotton shirt with a crisp collar. Easy to iron and comfortable all day.",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "colors": [
+    "White",
+    "Sky blue"
+   ],
+   "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80",
+   "featured": true,
+   "inStock": true,
+   "at": 1791186511811
+  },
+  {
+   "id": "4253c1683d",
+   "name": "Oxford Blue Shirt",
+   "category": "Shirts",
+   "price": 1600,
+   "oldPrice": 0,
+   "desc": "Soft oxford cotton for office and weekends.",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "colors": [
+    "Blue",
+    "Navy"
+   ],
+   "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
+   "featured": false,
+   "inStock": true,
+   "at": 1791186411811
+  },
+  {
+   "id": "c5c4830be5",
+   "name": "Premium Cotton T-Shirt",
+   "category": "T-Shirts",
+   "price": 650,
+   "oldPrice": 800,
+   "desc": "Heavy 220gsm cotton. Holds its shape after washing.",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "colors": [
+    "Black",
+    "Grey",
+    "White"
+   ],
+   "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+   "featured": true,
+   "inStock": true,
+   "at": 1791186311811
+  },
+  {
+   "id": "edfe7d9496",
+   "name": "Polo Shirt",
+   "category": "T-Shirts",
+   "price": 950,
+   "oldPrice": 0,
+   "desc": "Breathable pique polo with a clean, modern fit.",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "colors": [
+    "Green",
+    "Navy",
+    "Maroon"
+   ],
+   "image": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?auto=format&fit=crop&w=900&q=80",
+   "featured": false,
+   "inStock": true,
+   "at": 1791186211811
+  },
+  {
+   "id": "a40282763a",
+   "name": "Slim Fit Chinos",
+   "category": "Trousers",
+   "price": 1500,
+   "oldPrice": 1900,
+   "desc": "Stretch cotton chinos. Smart enough for work, easy enough for every day.",
+   "sizes": [
+    "30",
+    "32",
+    "34",
+    "36",
+    "38"
+   ],
+   "colors": [
+    "Khaki",
+    "Navy",
+    "Black"
+   ],
+   "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=900&q=80",
+   "featured": true,
+   "inStock": true,
+   "at": 1791186111811
+  },
+  {
+   "id": "1e32dd4255",
+   "name": "Dark Denim Jeans",
+   "category": "Trousers",
+   "price": 1700,
+   "oldPrice": 0,
+   "desc": "Straight-cut denim with a little stretch.",
+   "sizes": [
+    "30",
+    "32",
+    "34",
+    "36",
+    "38"
+   ],
+   "colors": [
+    "Dark blue"
+   ],
+   "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=900&q=80",
+   "featured": false,
+   "inStock": true,
+   "at": 1791186011811
+  },
+  {
+   "id": "2748715f75",
+   "name": "Two-Piece Business Suit",
+   "category": "Suits and Jackets",
+   "price": 6800,
+   "oldPrice": 8200,
+   "desc": "Tailored two-piece suit with a lined jacket. Ready for weddings and the boardroom.",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "colors": [
+    "Charcoal",
+    "Navy",
+    "Black"
+   ],
+   "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80",
+   "featured": true,
+   "inStock": true,
+   "at": 1791185911811
+  },
+  {
+   "id": "184f74523f",
+   "name": "Casual Blazer",
+   "category": "Suits and Jackets",
+   "price": 3400,
+   "oldPrice": 0,
+   "desc": "Light blazer that dresses up any outfit.",
+   "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "colors": [
+    "Brown",
+    "Grey"
+   ],
+   "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
+   "featured": false,
+   "inStock": true,
+   "at": 1791185811811
+  },
+  {
+   "id": "83abe18167",
+   "name": "Leather Oxford Shoes",
+   "category": "Shoes",
+   "price": 3200,
+   "oldPrice": 3900,
+   "desc": "Genuine leather upper with a cushioned sole.",
+   "sizes": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+   ],
+   "colors": [
+    "Black",
+    "Brown"
+   ],
+   "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=80",
+   "featured": true,
+   "inStock": true,
+   "at": 1791185711811
+  },
+  {
+   "id": "cd26f9c807",
+   "name": "Everyday Sneakers",
+   "category": "Shoes",
+   "price": 2300,
+   "oldPrice": 0,
+   "desc": "Lightweight sneakers for long days.",
+   "sizes": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+   ],
+   "colors": [
+    "White",
+    "Black"
+   ],
+   "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+   "featured": false,
+   "inStock": true,
+   "at": 1791185611811
+  },
+  {
+   "id": "cf92327678",
+   "name": "Leather Belt",
+   "category": "Accessories",
+   "price": 600,
+   "oldPrice": 0,
+   "desc": "Full-grain leather belt with a brushed metal buckle.",
+   "sizes": [
+    "One size"
+   ],
+   "colors": [
+    "Black",
+    "Brown"
+   ],
+   "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80",
+   "featured": false,
+   "inStock": true,
+   "at": 1791185511811
+  },
+  {
+   "id": "6512f19d70",
+   "name": "Classic Wrist Watch",
+   "category": "Accessories",
+   "price": 2800,
+   "oldPrice": 3500,
+   "desc": "Stainless steel case, water resistant, one year warranty.",
+   "sizes": [
+    "One size"
+   ],
+   "colors": [
+    "Gold",
+    "Silver"
+   ],
+   "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80",
+   "featured": true,
+   "inStock": true,
+   "at": 1791185411811
+  }
+ ],
+ "orders": [],
+ "seq": 1000,
+ "admin": "5bb5553332b3b63f:26c47968cabdef18a1103f89d574f1f571457b673caa29c70fefd4a264fcc628",
+ "sessions": {}
+}
